@@ -1,13 +1,17 @@
 <template>
     <section class="container">
-        <div>
-            <app-logo/>
-            <h1 class="title">
-                The First Bit IT Show
-            </h1>
+        <div class="page">
             <h2 class="subtitle">
                 Podcast <i class="fa fa-podcast"></i>
             </h2>
+
+            <h1 class="title">
+                The First Bit IT Show
+            </h1>
+
+            <app-logo/>
+
+
             <div class="links"></div>
             <div class="team">
                 <h2>Team:</h2>
@@ -15,8 +19,6 @@
                     <div class="team-list__item"><a href="https://medium.com/@frontman/">Alexander Mayorov</a></div>
                     <div class="team-list__item"><a href="http://jeka.ru">Evgeny Fomin</a></div>
                 </div>
-
-
             </div>
         </div>
     </section>
@@ -35,10 +37,10 @@
 <style>
     .container {
         min-height: 100vh;
-        display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
+        padding: 10% 0 0 0;
     }
 
     .title {
@@ -48,6 +50,7 @@
         font-size: 100px;
         color: #35495e;
         letter-spacing: 1px;
+        margin-bottom: 15px;
     }
 
     .subtitle {
@@ -55,7 +58,7 @@
         font-size: 42px;
         color: #526488;
         word-spacing: 5px;
-        padding-bottom: 15px;
+        padding: 15px 0 0 ;
     }
 
     .links {
