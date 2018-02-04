@@ -26,7 +26,7 @@
 
         <div class="o-container--medium o-container">
         <div class="team">
-            <h2>Ведущие:</h2>
+            <h2>Ведущие подкаста:</h2>
             <div class="team-list">
                 <div class="o-grid o-grid--small-full o-grid--top">
                     <div class="team-list__item o-grid__cell">
@@ -99,7 +99,7 @@
     }
 
     .info__feed-input {
-        width: 70%;
+        width: 90%;
         background: #CCC;
     }
 
