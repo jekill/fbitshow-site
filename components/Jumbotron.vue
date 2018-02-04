@@ -1,11 +1,15 @@
 <template>
-    <div class="jumbotron o-grid o-grid--small-full   ">
-        <div class="o-grid__cell jumbotron__right">
-            <slot name="info"></slot>
-        </div>
+    <div class="jumbotron">
+        <div class="o-container o-container--medium">
+        <div class="o-grid o-grid--small-full   ">
+            <div class="o-grid__cell jumbotron__right">
+                <slot name="info"></slot>
+            </div>
 
-        <div class="o-grid__cell jumbotron__left">
-            <slot name="player" class="o-grid__cell"></slot>
+            <div class="o-grid__cell jumbotron__left">
+                <slot name="player" class="o-grid__cell"></slot>
+            </div>
+        </div>
         </div>
 
     </div>
@@ -18,7 +22,7 @@
 </script>
 <style scoped>
     .jumbotron {
-        padding: 50px 20px;
+        padding: 50px 0px;
         background-color: #000;
         background-image: url("/jumbbg.jpg");
         background-repeat: no-repeat;
