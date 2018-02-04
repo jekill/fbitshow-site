@@ -46,9 +46,9 @@
 
     .last-episode__head {
         text-transform: uppercase;
-        margin-bottom: 6px;
         color: #888;
         font-size: 15px;
+        margin: 20px 0 0;
     }
 
     .last-episode__title {
