@@ -10,6 +10,12 @@ module.exports = {
       {hid: 'description', name: 'description', content: 'Podcast - The First Bit IT Show'}
     ],
     link: [
+      {
+        rel: "alternate",
+        type: "application/rss+xml",
+        title: "The First Bit IT Show - Feed",
+        href: "http://fbitshow.ru/feed.xml"
+      },
       {rel: 'icon', type: 'image/x-icon', href: '/favicon.png'},
       // {
       //   rel: 'stylesheet',

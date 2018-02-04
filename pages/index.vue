@@ -14,6 +14,10 @@
                 <p class="subtitle info__subtitle">
                     Позновательно развлекательное шоу про программирование, IT&nbsp;в&nbsp;жизни и&nbsp;жизни в&nbsp;IT
                 </p>
+                <div class="o-field o-field--icon-left">
+                <i class="fa fa-rss c-icon"></i>
+                <input type="text" readonly value="http://fbitshow.ru/feed.xml" class="info__feed-input c-field" @focus="feedClick" ref="feedInput"/>
+                </div>
             </div>
         </Jumbotron>
 
@@ -64,6 +68,12 @@
       Menu,
       Jumbotron,
       LastEpisode
+    },
+
+    methods:{
+      feedClick(e){
+        this.$refs.feedInput.select()
+      }
     }
   }
 </script>
@@ -88,6 +98,11 @@
         font-weight: 300;
         font-size: 18px;
         color: #888;
+    }
+
+    .info__feed-input{
+        width: 50%;
+        background: #CCC;
     }
 
     .links {
