@@ -46,7 +46,7 @@
 
     .last-episode__head {
         text-transform: uppercase;
-        margin-bottom: 0px;
+        margin-bottom: 6px;
         color: #888;
         font-size: 15px;
     }

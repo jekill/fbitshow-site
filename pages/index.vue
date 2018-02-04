@@ -8,47 +8,45 @@
                 <LastEpisode></LastEpisode>
             </div>
             <div slot="info">
-                <h1 class="title info__title">
-                    The First Bit IT Show <i class="fa fa-podcast"></i> Podcast
-                </h1>
-                <p class="subtitle info__subtitle">
-                    Позновательно развлекательное шоу про программирование, IT&nbsp;в&nbsp;жизни и&nbsp;жизни в&nbsp;IT
-                </p>
-                <div class="o-field o-field--icon-left">
-                <i class="fa fa-rss c-icon"></i>
-                <input type="text" readonly value="http://fbitshow.ru/feed.xml" class="info__feed-input c-field" @focus="feedClick" ref="feedInput"/>
+                <div class="info">
+                    <h1 class="title info__title">
+                        The First Bit IT Show <i class="fa fa-podcast"></i> Podcast
+                    </h1>
+                    <p class="subtitle info__subtitle">
+                        Позновательно развлекательное шоу про программирование, IT&nbsp;в&nbsp;жизни и&nbsp;жизни в&nbsp;IT
+                    </p>
+                    <div class="o-field o-field--icon-left u-large">
+                        <i class="fa fa-rss c-icon"></i>
+                        <input type="text" readonly value="http://fbitshow.ru/feed.xml" class="info__feed-input c-field" @focus="feedClick" ref="feedInput"/>
+                    </div>
                 </div>
             </div>
         </Jumbotron>
 
 
-        <div class="o-grid">
-            <div class="o-grid__cell">
-                <div class="team">
-                    <h2>Ведущие:</h2>
-                    <div class="team-list">
-                        <div class="team-list__item">
-                            <div class="c-avatar u-super team-list__item-avatar">
-                                <img src="/frontman.jpeg" class="c-avatar__img" alt="">
-                            </div>
-                            <a href="https://medium.com/@frontman/" class="c-link">
-                                Alexander Mayorov
-                            </a>
+        <div class="o-container--medium o-container">
+        <div class="team">
+            <h2>Ведущие:</h2>
+            <div class="team-list">
+                <div class="o-grid o-grid--small-full o-grid--top">
+                    <div class="team-list__item o-grid__cell">
+                        <div class="c-avatar u-super team-list__item-avatar">
+                            <img src="/frontman.jpeg" class="c-avatar__img" alt="">
                         </div>
-                        <div class="team-list__item">
-                            <div class="c-avatar u-super team-list__item-avatar">
-                                <img src="/jeka.jpg" class="c-avatar__img" alt="">
-                            </div>
-                            <a href="http://jeka.ru" class="c-link">Evgeny Fomin</a>
+                        <a href="https://medium.com/@frontman/" class="c-link">
+                            Alexander Mayorov
+                        </a>
+                    </div>
+                    <div class="team-list__item o-grid__cell">
+                        <div class="c-avatar u-super team-list__item-avatar">
+                            <img src="/jeka.jpg" class="c-avatar__img" alt="">
                         </div>
+                        <a href="http://jeka.ru" class="c-link">Evgeny Fomin</a>
                     </div>
                 </div>
             </div>
         </div>
-
-
-
-
+        </div>
 
         <div class="links"></div>
     </div>
@@ -70,8 +68,8 @@
       LastEpisode
     },
 
-    methods:{
-      feedClick(e){
+    methods: {
+      feedClick(e) {
         this.$refs.feedInput.select()
       }
     }
@@ -81,7 +79,7 @@
 <style scoped>
 
     .info {
-
+        margin-bottom: 20px;
     }
 
     .info__title {
@@ -100,8 +98,8 @@
         color: #888;
     }
 
-    .info__feed-input{
-        width: 50%;
+    .info__feed-input {
+        width: 70%;
         background: #CCC;
     }
 
@@ -109,24 +107,22 @@
         padding-top: 15px;
     }
 
-    .team{
+    .team {
         text-align: center;
     }
+
     .team-list {
-        display: flex;
-        justify-content: center;
     }
 
     .team-list__item {
         padding: 5px 10px;
-        display:flex;
+        display: flex;
         align-items: center;
     }
 
-    .team-list__item-avatar{
+    .team-list__item-avatar {
         margin-right: 10px;
     }
-
 
 
 </style>
