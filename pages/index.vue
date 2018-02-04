@@ -13,7 +13,7 @@
                         The First Bit IT Show <i class="fa fa-podcast"></i> Podcast
                     </h1>
                     <p class="subtitle info__subtitle">
-                        Позновательно развлекательное шоу про программирование, IT&nbsp;в&nbsp;жизни и&nbsp;жизни в&nbsp;IT
+                        Позновательно-развлекательное шоу про программирование, IT&nbsp;в&nbsp;жизни и&nbsp;жизни в&nbsp;IT
                     </p>
                     <div class="o-field o-field--icon-left u-large">
                         <i class="fa fa-rss c-icon"></i>
