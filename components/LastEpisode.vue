@@ -5,7 +5,7 @@
             {{episodeName}}
         </div>
         <div class="last-episode__player">
-            <audio class="episode__player" src="/audio/000-the-first-bit-it-show.mp3" controls style="background-color: #FFF; width: 80%;"></audio>
+            <audio class="episode__player" src="/audio/000-the-first-bit-it-show.mp3" controls style="width: 80%;"></audio>
         </div>
         <div class="last-episode__links">
             <a href="#" class="c-button u-small last-episode__btn-itunes"><i class="fa fa-apple"></i> iTunes</a>
