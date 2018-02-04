@@ -10,7 +10,7 @@ module.exports = {
       {hid: 'description', name: 'description', content: 'Podcast - The First Bit IT Show'}
     ],
     link: [
-      {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'},
+      {rel: 'icon', type: 'image/x-icon', href: '/favicon.png'},
       // {
       //   rel: 'stylesheet',
       //   href: "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css",

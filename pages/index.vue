@@ -21,7 +21,7 @@
         <div class="o-grid">
             <div class="o-grid__cell">
                 <div class="team">
-                    <h2>Team:</h2>
+                    <h2>Ведущие:</h2>
                     <div class="team-list">
                         <div class="team-list__item">
                             <div class="c-avatar u-super team-list__item-avatar">
